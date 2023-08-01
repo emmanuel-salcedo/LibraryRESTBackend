@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "e045399e-7376-4021-a213-6b4a4f2dcf37",
+		"name": "Library REST TEsts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28321763"
+	},
+	"item": [
+		{
+			"name": "Patron 425198003 Checks out 981003724",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/library/book/981003724/checkout/425198003",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"book",
+						"981003724",
+						"checkout",
+						"425198003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patron 425198003 Checks out 981456123",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/library/book/981456123/checkout/425198003",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"book",
+						"981456123",
+						"checkout",
+						"425198003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check in fake book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/library/book/83/return",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"book",
+						"83",
+						"return"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check in 981003724",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/library/book/83/return",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"book",
+						"83",
+						"return"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Patron 425198003 Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/library/patron/425198003",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"patron",
+						"425198003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Fake Patron",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/library/patron/42513233",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"patron",
+						"42513233"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/library/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Patrons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/library/book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"library",
+						"book"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
