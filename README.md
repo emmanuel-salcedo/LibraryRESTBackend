@@ -5,7 +5,6 @@ This project is a Library Management System that allows users to manage books an
 ## Table of Contents
 
 - [Description](#description)
-- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
@@ -26,14 +25,6 @@ The Library Management System is a web application built using Spring Boot, whic
 - Add new patrons to the library.
 - Update existing patron information.
 - Delete patrons from the library.
-
-## Requirements
-
-To run this project, you need the following:
-
-- Java Development Kit (JDK) 11 or higher installed on your system.
-- Apache Maven build tool.
-- A MySQL database to store book and patron information.
 
 ## Installation
 
